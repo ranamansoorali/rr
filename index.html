@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Automatic washing machine - AC Repair Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;800&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .service-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .image-row {
+            display: flex;
+            /* Align images in a row */
+            justify-content: center;
+            /* Center images horizontally */
+            margin-bottom: 10px;
+            /* Space between rows */
+        }
+
+        .image-row img {
+            width: 200px;
+            /* Adjust the width of the images */
+            height: auto;
+            /* Maintain aspect ratio */
+            margin: 5px;
+            /* Space between images */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark text-white-50 py-2 px-0 d-none d-lg-block">
+        <div class="row gx-0 align-items-center">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-phone-alt me-2"></small>
+                    <a href="tel:+966545473163"></a> <a href="tel:+966545473163">
+                        <small>+966 54 547 3163</small>
+                    </a> </a>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="far fa-envelope-open me-2"></small>
+                    <small>info@example.com</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <ol class="breadcrumb justify-content-end mb-0">
+                    <li class="breadcrumb-item"><a class="text-white-50 small" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white-50 small" href="#">Terms</a></li>
+                    <li class="breadcrumb-item"><a class="text-white-50 small" href="#">Privacy</a></li>
+                    <li class="breadcrumb-item"><a class="text-white-50 small" href="#">Support</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h1 class="m-0"><img class="img-fluid me-3"
+                    src="https://www.pngkey.com/png/full/292-2926695_washing-machine-clipart-png.png" alt="">Automatic
+                washing machine </h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto bg-light pe-4 py-3 py-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About Us</a>
+                <a href="service.html" class="nav-item nav-link">Our Services</a>
+
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+            </div>
+            <!-- <div class="h-100 d-lg-inline-flex align-items-center d-none">
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+            </div> -->
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100"
+                        src="https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/global/images-for-blog/how-to-wash-pillows-in-a-washing-machine_PC.jpg"
+                        alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 pt-5">
+                                    <h1 class="display-4 text-white mb-4 animated slideInDown">نحن نقدم أفضل خدمات إصلاح
+                                        الأجهزة</h1>
+                                    <p class="fs-5 text-body mb-4 pb-2 mx-sm-5 animated slideInDown">نحن نصلح جميع
+                                        مشاكلك المتعلقة بالسباكة والكهرباء</p>
+                                    <a href="tel:+966545473163"
+                                        class="btn btn-primary py-3 px-5 animated slideInDown">+966 54 547 3163</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100"
+                        src="https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/global/images-for-blog/how-to-wash-pillows-in-a-washing-machine_PC.jpg"
+                        alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 pt-5">
+                                    <h1 class="display-4 text-white mb-4 animated slideInDown">خدمات إصلاح بجودة عالية
+                                    </h1>
+                                    <p class="fs-5 text-body mb-4 pb-2 mx-sm-5 animated slideInDown">موثوق بها من قبل
+                                        أكثر من 3000 عميل</p>
+                                    <a href="tel:+966545473163"
+                                        class="btn btn-primary py-3 px-5 animated slideInDown">+966 54 547 3163</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">السابق</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">التالي</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <h1 class="display-6 mb-5">حلول موثوقة لمنزلك</h1>
+                        <div class="row g-4 mb-4">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 me-3" src="img/icon/icon-07-primary.png" alt="">
+                                    <h5 class="mb-0">فني خبير</h5>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 me-3" src="img/icon/icon-09-primary.png" alt="">
+                                    <h5 class="mb-0">أفضل خدمات الجودة</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-4">نقدم خدمات إصلاح عالية الجودة لجميع أنواع الغسالات. يعتمد فريقنا على الخبرة
+                            والاحترافية لضمان رضا العملاء وحل مشاكلهم بأسرع وقت ممكن.</p>
+                        <div class="border-top mt-4 pt-4">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                                            <i class="fa fa-phone-alt text-white"></i>
+                                        </div>
+                                        <a href="tel:+966545473163">
+                                            <h5 class="mb-0">+966 54 547 3163</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                                            <i class="fa fa-envelope text-white"></i>
+                                        </div>
+                                        <h5 class="mb-0">info@example.com</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-6 text-end">
+                            <img class="img-fluid w-75 wow zoomIn" data-wow-delay="0.1s"
+                                src="https://5.imimg.com/data5/SELLER/Default/2022/11/NW/FU/YF/180329118/washing-machine-service-repairs-in-pat--500x500.png"
+                                style="margin-top: 25%;">
+                        </div>
+                        <div class="col-6 text-start">
+                            <img class="img-fluid w-100 wow zoomIn" data-wow-delay="0.3s"
+                                src="https://yashservicespune.com/wp-content/uploads/2020/12/Yash-Services.jpg">
+                        </div>
+                        <div class="col-6 text-end">
+                            <img class="img-fluid w-50 wow zoomIn" data-wow-delay="0.5s"
+                                src="https://www.thespruce.com/thmb/XXSTOmKFdoFiswHqoKm2GiaXviI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/washing-machine-repair-guide-4154046-hero-176ff133fcac46d18f753af56feb221a.JPG">
+                        </div>
+                        <div class="col-6 text-start">
+                            <img class="img-fluid w-75 wow zoomIn" data-wow-delay="0.7s"
+                                src="https://watermark.lovepik.com/photo/50235/0707.jpg_wh1200.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-1.jpg">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-sm-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="display-4 text-white" data-toggle="counter-up">3000</h1>
+                    <span class="text-primary">Happy Clients</span>
+                </div>
+                <div class="col-sm-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
+                    <span class="text-primary">Projects Succeed</span>
+                </div>
+                <div class="col-sm-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
+                    <span class="text-primary">Returning Buyers</span>
+                </div>
+                <div class="col-sm-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h1 class="display-4 text-white" data-toggle="counter-up">50</h1>
+                    <span class="text-primary">Team Members</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts End -->
+
+
+    <!-- Features Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-6 mb-5">لماذا تختار خدمات إصلاح الغسالات الخاصة بنا؟</h1>
+                    <p class="mb-5">نحن ملتزمون بتقديم خدمات إصلاح استثنائية تركز على الموثوقية والأسعار المناسبة ورضا
+                        العملاء. إليك بعض الأسباب التي تجعل عملائنا يثقون بنا في تلبية احتياجات إصلاح الغسالات:</p>
+                    <div class="d-flex mb-5">
+                        <div class="flex-shrink-0 btn-square bg-primary rounded-circle"
+                            style="width: 90px; height: 90px;">
+                            <img class="img-fluid" src="img/icon/icon-08-light.png" alt="مركز خدمة موثوق">
+                        </div>
+                        <div class="ms-4">
+                            <h5 class="mb-3">فنيون ذوو خبرة</h5>
+                            <span>فريقنا من الفنيين المعتمدين وذوي الخبرة يضمن إصلاح غسالتك بأعلى المعايير، باستخدام قطع
+                                الغيار الأصلية وأحدث الأدوات.</span>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-5">
+                        <div class="flex-shrink-0 btn-square bg-primary rounded-circle"
+                            style="width: 90px; height: 90px;">
+                            <img class="img-fluid" src="img/icon/icon-10-light.png" alt="سعر معقول">
+                        </div>
+                        <div class="ms-4">
+                            <h5 class="mb-3">أسعار مناسبة</h5>
+                            <span>نحن نقدم أسعارًا تنافسية وشفافة بدون رسوم خفية، مما يضمن حصولك على خدمة عالية الجودة
+                                بسعر عادل.</span>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-0">
+                        <div class="flex-shrink-0 btn-square bg-primary rounded-circle"
+                            style="width: 90px; height: 90px;">
+                            <img class="img-fluid" src="img/icon/icon-06-light.png" alt="دعم على مدار الساعة">
+                        </div>
+                        <div class="ms-4">
+                            <h5 class="mb-3">دعم على مدار الساعة</h5>
+                            <span>نحن متاحون على مدار الساعة للإجابة على أي استفسارات أو حالات طارئة، مما يوفر راحة
+                                البال ويضمن الإصلاحات في الوقت المناسب.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="position-relative rounded overflow-hidden h-100" style="min-height: 400px;">
+                        <img class="position-absolute w-100 h-100"
+                            src="https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/region/in/blog/pc/detail/blog-october/the-history-of-the-washing-machine-banner.jpg"
+                            alt="خدمة إصلاح الغسالات" style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6 mb-5">We Provide professional Repairing & Fixing Services</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <img class="img-fluid service-img"
+                            src="https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/services_images/thumbs/1649045313_washingmachinecheckup.jpg"
+                            alt="">
+                        <div class="d-flex align-items-center bg-light">
+                            <div class="service-icon flex-shrink-0 bg-primary">
+                            </div>
+                            <a class="h4 mx-4 mb-0" href="">Washing Machine Repair</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <img class="img-fluid service-img"
+                            src="https://th.bing.com/th/id/OIP.A0KP0NU0FLXI-viYUrgoXQHaFd?w=254&h=187&c=7&r=0&o=5&pid=1.7"
+                            alt="">
+                        <div class="d-flex align-items-center bg-light">
+                            <div class="service-icon flex-shrink-0 bg-primary">
+                            </div>
+                            <a class="h4 mx-4 mb-0" href="">Dish Washer Repair</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <img class="img-fluid service-img"
+                            src="https://th.bing.com/th/id/OIP.UbMgP3KylFoxSoMxr5hgyAHaHa?w=600&h=600&rs=1&pid=ImgDetMain"
+                            alt="">
+                        <div class="d-flex align-items-center bg-light">
+                            <div class="service-icon flex-shrink-0 bg-primary">
+                            </div>
+                            <a class="h4 mx-4 mb-0" href="">Hair Dryer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <img class="img-fluid service-img"
+                            src="https://media.istockphoto.com/id/1479866025/video/a-repairman-repairs-a-used-washing-machine.jpg?s=640x640&k=20&c=SaB9I5ivaC9-kK6u9TSe03xSQE6bCJSe9gdD5_J9YTs="
+                            alt="">
+                        <div class="d-flex align-items-center bg-light">
+                            <div class="service-icon flex-shrink-0 bg-primary">
+                            </div>
+                            <a class="h4 mx-4 mb-0" href="">Maintenance & Repair</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <img class="img-fluid service-img"
+                            src="https://5.imimg.com/data5/CK/FG/UF/SELLER-21238820/washing-machine-repair-500x500.jpg"
+                            alt="">
+                        <div class="d-flex align-items-center bg-light">
+                            <div class="service-icon flex-shrink-0 bg-primary">
+                            </div>
+                            <a class="h4 mx-4 mb-0" href="">Inner/Outer Quality</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <img class="img-fluid service-img"
+                            src="https://3.imimg.com/data3/QC/XT/MY-9475599/washing-machine-repair1-500x500.jpg" alt="">
+                        <div class="d-flex align-items-center bg-light">
+                            <div class="service-icon flex-shrink-0 bg-primary">
+                            </div>
+                            <a class="h4 mx-4 mb-0" href="">Annual Inspections</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <div class="image-row">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRToI8SZKpyry-VHPUkrWcMNaCxKDkVk4pODQ&s"
+            alt="Image 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7hZL7venLgEw_gmBdLWXzDfQRTtSL9moqFA&s"
+            alt="Image 2">
+        <img src="https://play-lh.googleusercontent.com/nJnwrrHws3eKGPp4g_OOeXEx6ktQ5VQmbZIzlQVPuFvaKKVmF_jhNJMgTZG1G0xGuYU"
+            alt="Image 3">
+        <img src="https://1000logos.net/wp-content/uploads/2017/06/Font-Samsung-Logo.jpg" alt="Image 4">
+    </div>
+
+    <!-- Second row of images -->
+    <div class="image-row">
+        <img src="https://www.signify.com/content/dam/signify/master/homepage/logo-philips.png" alt="Image 5">
+        <img src="https://static-data2.manualslib.com/brand/bad/935/daewoo-logo.png" alt="Image 6">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCur1P9sWzaOA1xNsnRsvxEFDxsFHsJhnlJQ&s"
+            alt="Image 7">
+        <img src="https://1000logos.net/wp-content/uploads/2017/12/Hitachi-Logo.png" alt="Image 8">
+    </div>
+    <!-- Quote Start -->
+    <div class="container-fluid overflow-hidden my-5 px-lg-0">
+        <div class="container quote px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-12 quote-text" data-parallax="scroll" data-image-src="img/carousel-1.jpg">
+                    <div class="h-100 px-4 px-sm-5 ps-lg-0 wow fadeIn" data-wow-delay="0.1s">
+                        <h1 class="text-white mb-4">للأفراد والمنظمات</h1>
+                        <p class="text-light mb-5">نحن نقدم حلولاً شاملة للأفراد والمنظمات، لضمان التشغيل السلس لجميع
+                            الأجهزة. فريقنا من الخبراء مستعد لتقديم الدعم والخدمة التي تحتاجها للحفاظ على أجهزة منزلك أو
+                            مكتبك تعمل بكفاءة عالية.</p>
+                        <a href="tel:+966545473163" class="align-self-start btn btn-primary py-3 px-5">+966 54 547
+                            3163</a>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-6 quote-form" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
+                <div class="h-100 px-4 px-sm-5 pe-lg-0 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="bg-white p-4 p-sm-5">
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="gname" placeholder="Gurdian Name">
+                                    <label for="gname">اسمك</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="gmail" placeholder="Gurdian Email">
+                                    <label for="gmail">بريدك الإلكتروني</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="cname" placeholder="Child Name">
+                                    <label for="cname">رقم هاتفك</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="cage" placeholder="Child Age">
+                                    <label for="cage">نوع الخدمة</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="اترك رسالة هنا" id="message"
+                                        style="height: 80px"></textarea>
+                                    <label for="message">رسالة</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary py-3 px-5" type="submit">احصل على عرض مجاني</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6 mb-5">ماذا يقولون عن خدماتنا</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-left h-100">
+                        <img class="img-fluid animated pulse infinite" src="img/testimonial-1.jpg" alt="">
+                        <img class="img-fluid animated pulse infinite" src="img/testimonial-2.jpg" alt="">
+                        <img class="img-fluid animated pulse infinite" src="img/testimonial-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item text-center">
+                            <img class="img-fluid mx-auto mb-4" src="img/testimonial-1.jpg" alt="">
+                            <p class="fs-5">كان لدي مشكلة في غسالتي، وكانت خدمة الإصلاح من هذه الشركة استثنائية. وصلوا
+                                في الوقت المحدد، شخصوا المشكلة بسرعة، وقاموا بتشغيل غسالتي في وقت قصير. أوصي بشدة
+                                بخدماتهم!</p>
+                            <h5>أمينة</h5>
+                            <span>مقيمة في الرياض</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <img class="img-fluid mx-auto mb-4" src="img/testimonial-2.jpg" alt="">
+                            <p class="fs-5">الفني الذي قام بإصلاح ثلاجتنا كان ذو معرفة ومهنية عالية. أوضح كل شيء بوضوح
+                                وتأكد من أن الإصلاح تم بشكل صحيح من المرة الأولى. خدمة رائعة وأسعار عادلة.</p>
+                            <h5>أحمد</h5>
+                            <span>مقيم في الرياض</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <img class="img-fluid mx-auto mb-4" src="img/testimonial-3.jpg" alt="">
+                            <p class="fs-5">توقف مكيف الهواء لدينا عن العمل في منتصف الصيف، وكنا بحاجة إلى إصلاح سريع.
+                                قامت هذه الشركة بذلك! كانوا سريعين وفعالين، ومكيف الهواء لدينا يعمل الآن بشكل ممتاز. نحن
+                                راضون جدا عن خدمتهم.</p>
+                            <h5>عمر</h5>
+                            <span>مقيم في الرياض</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-right h-100">
+                        <img class="img-fluid animated pulse infinite" src="img/testimonial-1.jpg" alt="">
+                        <img class="img-fluid animated pulse infinite" src="img/testimonial-2.jpg" alt="">
+                        <img class="img-fluid animated pulse infinite" src="img/testimonial-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6">
+                    
+                    <span>
+                        نحن نقدم أفضل خدمات إصلاح الأجهزة المنزلية في المملكة العربية السعودية. من إصلاح مكيفات الهواء
+                        إلى الغسالات والثلاجات، فريقنا من المهنيين المدربين جاهز لخدمتك على مدار الساعة.
+                    </span>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="text-light mb-4">النشرة الإخبارية</h5>
+                    <p>اشترك في نشرتنا الإخبارية للحصول على آخر التحديثات والعروض الخاصة مباشرة في بريدك الإلكتروني.</p>
+                    <div class="position-relative">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="بريدك الإلكتروني">
+                        <button type="button"
+                            class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">اشترك</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">تواصل معنا</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>123 شارع الملك فيصل، الرياض، المملكة العربية السعودية
+                    </p>
+                    <a href="tel:+966545473163">
+                        <p><i class="fa fa-phone-alt me-3"></i>+966 54 547 3163</p>
+                    </a>
+                    <p><i class="fa fa-envelope me-3"></i>info@Automatic washing machine services.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">خدماتنا</h5>
+                    <a class="btn btn-link" href="">تركيب مكيفات الهواء</a>
+                    <a class="btn btn-link" href="">خدمات التبريد</a>
+                    <a class="btn btn-link" href="">خدمات التدفئة</a>
+                    <a class="btn btn-link" href="">الصيانة السنوية</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">روابط سريعة</h5>
+                    <a class="btn btn-link" href="">من نحن</a>
+                    <a class="btn btn-link" href="">اتصل بنا</a>
+                    <a class="btn btn-link" href="">خدماتنا</a>
+                    <a class="btn btn-link" href="">الشروط والأحكام</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">تابعنا</h5>
+                    <div class="d-flex">
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
